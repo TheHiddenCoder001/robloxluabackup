@@ -53,7 +53,7 @@ function TPReturner()
                 end)
 
                 -- 25 second cooldown before teleporting
-                wait(25)
+                wait(25) -- Change wait time if you want to
 
                 pcall(function()
                     game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
